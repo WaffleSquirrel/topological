@@ -1,0 +1,15 @@
+{
+  "name": "topological",
+  "productName": "Topological",
+  "identifier": "com.example.topological",
+  "description": "Visualize your Topology.",
+  "version": "0.0.1",
+  "author": "Waffle Squirrel <WaffleSquirrel@users.noreply.github.com>",
+  "main": "background.js",
+  "config": {
+    "target": "development"
+  },
+  "dependencies": {
+    "fs-jetpack": "^0.7.0"
+  }
+}
