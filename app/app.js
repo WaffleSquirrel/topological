@@ -1,6 +1,6 @@
 // Modules which you authored in this project are intended to be
 // imported through new ES6 syntax.
-import { getPageTitle, getCopyright } from './home/home-default';
+import { getPageTitle } from './home/home';
 
 // Node.js modules and those from npm
 // are required the same way as always.
@@ -18,6 +18,5 @@ var envName = window.env.name;
 document.addEventListener('DOMContentLoaded', function() {
     document.title = getPageTitle();
     document.getElementById('platform-info').innerHTML = os.platform();
-    document.getElementById('env-name').innerHTML = envName;
-    document.getElementById('copyright-info').innerHTML = getCopyright();
+    document.getElementById('env-name').innerHTML = envName;    
 });
