@@ -1,4 +1,5 @@
 {
-  "name": "production",
-  "description": "Production Environment"
+    "name": "production",
+    "description": "Production Environment",
+    "showDevToolsOnStartup": false
 }

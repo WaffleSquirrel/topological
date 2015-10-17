@@ -1,4 +1,5 @@
 {
-  "name": "development",
-  "description": "Development Environment"
+    "name": "development",
+    "description": "Development Environment",
+    "showDevToolsOnStartup": true
 }

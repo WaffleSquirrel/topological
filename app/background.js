@@ -36,8 +36,9 @@ app.on('ready', function () {
         mainWindow.loadUrl('file://' + __dirname + '/app.html');
     }
 
-    if (env.name !== 'production') {
-        devHelper.setDevMenu();
+    devHelper.setDevMenu();    
+    
+    if (env.showDevToolsOnStartup) {
         mainWindow.openDevTools();
     }
 

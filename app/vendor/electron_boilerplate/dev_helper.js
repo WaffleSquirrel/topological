@@ -6,7 +6,7 @@ var BrowserWindow = require('browser-window');
 
 module.exports.setDevMenu = function () {
     var devMenu = Menu.buildFromTemplate([{
-        label: 'Development',
+        label: 'Tools',
         submenu: [{
             label: 'Reload',
             accelerator: 'CmdOrCtrl+R',
@@ -14,7 +14,7 @@ module.exports.setDevMenu = function () {
                 BrowserWindow.getFocusedWindow().reloadIgnoringCache();
             }
         },{
-            label: 'Toggle DevTools',
+            label: 'Toggle Dev Tools',
             accelerator: 'Alt+CmdOrCtrl+I',
             click: function () {
                 BrowserWindow.getFocusedWindow().toggleDevTools();

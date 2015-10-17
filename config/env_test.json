@@ -1,4 +1,5 @@
 {
-  "name": "test",
-  "description": "Test Environment"
+    "name": "test",
+    "description": "Test Environment",
+    "showDevToolsOnStartup": false
 }
